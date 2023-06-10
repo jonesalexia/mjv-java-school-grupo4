@@ -1,14 +1,12 @@
 public class ContaCorrente {
     
-    String numeroDaConta;
-    String numeroDaAgencia;
+    String numeroConta;
+    String numeroAgencia;
     String nomeCliente;
 
-    //Sacar
     public void sacar(double valor){}
 
-    //Tranferir
-    public void transferir(contaDestinatario, double valor) {}
+    public void transferir(String contaDestinatario, double valor) {}
 
     public void cancelar(String justificativa) {}
 }
