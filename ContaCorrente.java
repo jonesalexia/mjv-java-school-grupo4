@@ -1,13 +1,10 @@
-import java.time.LocalDate;
-import java.util.List;
-
-public class ContaCorrente {
+class ContaCorrente {
     
     String numeroConta;
     String numeroAgencia;
     String nomeCliente;
-    List<Object> extrato;
-    LocalDate dataNascimento;
+    Date dataNascimento;
+    Double saldo;
 
     public void sacar(double valor){}
 
@@ -15,7 +12,9 @@ public class ContaCorrente {
 
     public void cancelar(String justificativa) {}
 
-    public List<Object> consultarExtrato(){return extrato;}
+    public List consultarExtrato(){}
+
+    public double consultarSaldo(){}
 }
 
 
