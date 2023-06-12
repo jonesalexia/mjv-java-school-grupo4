@@ -4,6 +4,7 @@ class ContaCorrente {
     String numeroAgencia;
     String nomeCliente;
     Date dataNascimento;
+    Double saldo;
 
     public void sacar(double valor){}
 
@@ -12,6 +13,8 @@ class ContaCorrente {
     public void cancelar(String justificativa) {}
 
     public List consultarExtrato(){}
+
+    public double consultarSaldo(){}
 }
 
 
